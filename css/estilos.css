@@ -44,7 +44,17 @@ p {
 
 }
 
-/* Scroll Personalizado */
+/* Scroll Bar*/
+body::-webkit-scrollbar {
+	width: 7px;
+	background: rgba(161,231,255, 0.8);
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #2ABAFA;
+	border-radius: 5px;
+}
+
 
 .contenedor::-webkit-scrollbar {
 	width: 7px;
